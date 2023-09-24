@@ -1,0 +1,13 @@
+Using a fetch API builtin the browser inorder to make 
+asynchronous request to different network resources by Using
+get, post, put etc
+
+How it works, (pass 2 properties)
+fetch("https://reqres.in/api/users", {
+    //Here you pass options eg. post, get, put, delete etc
+})
+
+It a promise
+you can use .fetch or .then
+
+Remember to include header and also stringify the JSON

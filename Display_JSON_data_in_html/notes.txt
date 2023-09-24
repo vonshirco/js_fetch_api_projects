@@ -1,0 +1,5 @@
+How to fetch data from a json file and display them on a table 
+with javascript and the fetch method
+
+In the File we have an array of objects and every object is a
+product which has properties

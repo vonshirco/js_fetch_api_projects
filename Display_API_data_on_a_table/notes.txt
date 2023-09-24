@@ -1,0 +1,11 @@
+Storing API data in table
+
+Fake store API has being used
+http://fakestoreapi.com/docs
+
+Bootstrap for styling has being used
+
+To fetch the API we will use promises
+by using two methods, then and catch
+
+We used map method to access the data in the api

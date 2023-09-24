@@ -1,0 +1,7 @@
+Fetching data from API and displaying on card
+
+fetch() method: It is defined on the window object, which we can use to perform requests
+
+This method will return promise
+
+promise will either be fullfilled or rejected

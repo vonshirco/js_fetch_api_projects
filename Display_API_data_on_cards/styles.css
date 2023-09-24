@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.main-cards{
+    display: flex; /*Cards displayed side by side*/
+    justify-content: space-around; /*whatever space at the end is divided btwn the cards*/
+    flex-wrap: wrap; /*No horizontal scroll bar*/
+}
+
+.cards{
+    width: 23%;
+    box-shadow: 0 0 4px 3px pink;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em ;
+}
+
+.images{
+    width: 80%;
+}
+
+.title{
+    font-size: 1.3rem;
+}
+
+.category, .price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+
+/* Add a media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+    .main-cards {
+        flex-direction: column; /* Stack cards vertically */
+    }
+
+    .cards {
+        width: 100%; /* Full width for cards on smaller screens */
+    }
+}
