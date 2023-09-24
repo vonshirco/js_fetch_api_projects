@@ -1,0 +1,61 @@
+JSON
+(Javascript Object Notation)
+- Data Representation Format (very similar to xml or yaml)
+- Commonly used for APIs and Configs
+- Lightweight and Easy to Read/Write
+- Integrates easily with most languages
+
+JSON Types
+1. Strings - “Hello World”, “Kyle”, “I”
+2. Numbers - 10,  1.5,  -30, 1.2e10
+3. Booleans - true, false
+4. null - null (nothing)
+5. Array - [1,2,3], [“Hello”, “World”]
+6. Objects - {“key”: “value”}, {“age”:30}
+
+How to use Json in a file
+- Create a file filename.json
+
+- Array and Objects mostly used
+
+- To create and objects
+{
+	“key”: ”value”,
+	“key”: “value”
+}
+- Must be in double quotes, if multiple separate with a comma
+- Don’t put a comma in the very last property
+
+Example:
+{
+	“name”: “Kyle”,
+	“favoriteNumber”: 3,
+	“isProgrammer”: true,
+	“hobbies”: [“Weight Lifting”, “Bowling”],
+	“friends”: [{
+		“name”: “Joey”,
+		“favoriteNumber”: 100,
+		“isProgrammer”: false,
+	 “friends” : […]
+}]
+}
+
+Example 2:
+Array of different Objects of companies
+[
+    {
+        "name": "Big Corporation",
+        "numberofEmployees": 10000,
+        "ceo": "Mary",
+        "rating": 3.6
+    },
+    {
+        "name":"Small Startup",
+        "numberofEmployees": 3,
+        "ceo": null,
+        "rating": 4.3
+    }
+]
+
+when dealing with json to get as string ` ` (this is usually)
+To getback as Object we parse - JSON.parse(companies)
